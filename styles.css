@@ -1,3 +1,28 @@
-h1,p {
+body {
+    background: lightgray;
+}
+
+h1,h3,p {
     text-align: center;
+}
+
+input {
+    margin-bottom: 5%;
+}
+
+#mainArea {
+    display: flex;
+}
+
+#postArea {
+    width: 73%;
+    margin-right: 2%;
+}
+
+#formArea {
+    width: 14%;
+    margin-left: 2%;
+    background: white;
+    padding: 18px;
+    padding-top: 0;
 }

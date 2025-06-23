@@ -8,5 +8,28 @@
 <body>
     <h1>My Simple Blog</h1>
     <p>A client-side blog powered by JavaScript</p>
+
+    <div id="mainArea">
+        <div id="postArea">
+            <h2>Latest Posts</h2>
+            <hr>
+            <div id="postsContainer">
+
+            </div>
+        </div>
+        <div id="formArea">
+            <h3>Create a New Post</h3>
+            <form action="main.html">
+                <label for="title">Title</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="author">Author</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="content">Content</label><br>
+                <textarea name="content" id="content" rows="4" cols="20"></textarea><br>
+                <input type="button" value="Create Post" onclick="">
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
