@@ -19,6 +19,10 @@ input {
     margin-right: 2%;
 }
 
+#postsContainer {
+    height: 100%;
+}
+
 #formArea {
     width: 14%;
     margin-left: 2%;
