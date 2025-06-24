@@ -30,3 +30,8 @@ input {
     padding: 18px;
     padding-top: 0;
 }
+
+#blogPost {
+    background: white;
+    text-align: left;
+}
