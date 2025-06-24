@@ -10,7 +10,7 @@
 <body>
     <h1>My Simple Blog</h1>
     <p>A client-side blog powered by JavaScript</p>
-
+    <h2 onclick="alert('yuh')">test</h2>
     <div id="mainArea">
         <div id="postArea">
             <h2>Latest Posts</h2>
@@ -21,12 +21,12 @@
             <h3>Create a New Post</h3>
             <form action="main.html">
                 <label for="titleForm">Title</label><br>
-                <input type="text" id="titleForm" name="title"><br>
+                <input type="text" id="titleForm" name="title" required><br>
                 <label for="authorForm">Author</label><br>
-                <input type="text" id="authorForm" name="author"><br>
+                <input type="text" id="authorForm" name="author" required><br>
                 <label for="contentForm">Content</label><br>
-                <textarea name="content" id="contentForm" rows="4" cols="20"></textarea><br>
-                <button type="button" id="createPost">Create Post</button>
+                <textarea name="content" id="contentForm" rows="4" cols="20" required></textarea><br>
+                <button type="reset" id="createPost">Create Post</button>
             </form>
         </div>
     </div>
