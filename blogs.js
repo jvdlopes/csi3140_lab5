@@ -7,8 +7,10 @@ var temp = new blog("test","me","this is a test")
 blogList.push(temp);
 
 function handleAddPost(event){
-    var title = getElementById("title");
-    document.writeln("<p>" + title + "</p>");
+    var title = document.getElementById("titleForm").value;
+    var author = document.getElementById("authorForm").value;
+    var content = document.getElementById("contentForm").value;
+
     displayPosts();
 }
 
